@@ -41,6 +41,19 @@ Y = np.reshape(y, s)
 regions = pd.read_csv('../data/metadata/region_definitions.csv', index_col=0)
 regions['print_title'] = [c.replace('_', ' ').title().replace('Of', 'of') for c in regions.index]
 
+# Put in longitude order starting with Greenland
+regions = regions.loc[['greenland_sea',
+                       'barents_kara_seas',
+                       'laptev_sea',
+                       'sea_of_okhostk',
+                       'east_siberian_sea',
+                       'bering_chukchi_seas',
+                       'beaufort_sea',
+                       'hudson_bay',
+                       'baffin_bay'],:]
+
+
+	
 
 crs = ccrs.NorthPolarStereo(central_longitude=-45, true_scale_latitude=70)
 fig, ax = pplt.subplots(width=4.5, proj='npstere', proj_kw={'lon_0': -45})
