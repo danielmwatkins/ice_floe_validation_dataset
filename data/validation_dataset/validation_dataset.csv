@@ -209,8 +209,8 @@ case_number,region,start_date,center_lon,center_lat,center_x,center_y,month,sea_
 104,east_siberian_sea,2017-04-17,174.3362937,70.34470456,-1362500,1662500,4,1,0.8899999857,229,terra,yes,yes,yes,0.2,thin,no,minki,emma,,,,light,,,
 105,east_siberian_sea,2018-08-09,176.143199,75.51782426,-1037500,1187500,8,1,0.7289999723,232,aqua,yes,no,yes,0.1,thin,no,minki,emma,,,,,,,Rounded 0.05 up to 0.1
 105,east_siberian_sea,2018-08-09,176.143199,75.51782426,-1037500,1187500,8,1,0.7289999723,232,terra,yes,no,yes,0.4,thin,yes,minki,emma,,,,,,,
-106,greenland_sea,2014-09-11,-13.431029,78.793415,637500,-1037500,9,0.92,0.715,-1,aqua,yes,yes,yes,0.9,scattered,no,daniel,minki,,,,moderate,,,
-106,greenland_sea,2014-09-11,-13.431029,78.793415,637500,-1037500,9,0.92,0.715,-1,terra,yes,yes,yes,0.9,scattered,no,daniel,minki,,,,moderate,,,
+106,greenland_sea,2014-09-11,-13.431029,78.793415,637500,-1037500,9,0.92,0.715,-1,aqua,yes,yes,yes,0.9,scattered,no,daniel,minki,daniel,,yes,moderate,,,
+106,greenland_sea,2014-09-11,-13.431029,78.793415,637500,-1037500,9,0.92,0.715,-1,terra,yes,yes,yes,0.9,scattered,no,daniel,minki,daniel,,yes,moderate,,,
 107,greenland_sea,2021-05-06,-22.30620505,69.57314507,862500,-2062500,5,1,0.7720000148,-1,aqua,yes,yes,yes,0.9,scattered,no,daniel,minki,daniel,,yes,moderate,,,
 107,greenland_sea,2021-05-06,-22.30620505,69.57314507,862500,-2062500,5,1,0.7720000148,-1,terra,yes,yes,yes,0.9,scattered,no,daniel,minki,daniel,,yes,moderate,,,
 108,greenland_sea,2018-06-10,-20.92450174,72.31571697,787500,-1762500,6,1,0.6719999909,283,aqua,yes,yes,yes,0.6,thin,no,minki,ellen,daniel,,yes,none,,,
@@ -224,15 +224,15 @@ case_number,region,start_date,center_lon,center_lat,center_x,center_y,month,sea_
 112,greenland_sea,2012-04-04,-13.47315811,73.99140669,912500,-1487500,4,0.96,0.6859999895,-1,aqua,yes,no,yes,0.3,scattered,no,daniel,minki,daniel,,yes,none,,,
 112,greenland_sea,2012-04-04,-13.47315811,73.99140669,912500,-1487500,4,0.96,0.6859999895,-1,terra,yes,no,yes,0.3,scattered,no,daniel,minki,daniel,,yes,none,,,
 113,greenland_sea,2014-08-10,-12.43956202,78.67202752,662500,-1037500,8,0.68,0.628000021,-1,aqua,no,no,no,1,scattered,no,daniel,minki,,,,,,,
-113,greenland_sea,2014-08-10,-12.43956202,78.67202752,662500,-1037500,8,0.68,0.628000021,-1,terra,yes,no,yes,1,scattered,yes,daniel,minki,,,,light,,,
+113,greenland_sea,2014-08-10,-12.43956202,78.67202752,662500,-1037500,8,0.68,0.628000021,-1,terra,yes,no,yes,1,scattered,yes,daniel,minki,daniel,,yes,light,,,
 114,greenland_sea,2022-09-19,-11.48199135,79.37206286,637500,-962500,9,1,0.7160000205,292,aqua,no,no,no,1,opaque,yes,minki,ellen,,,,,,,
 114,greenland_sea,2022-09-19,-11.48199135,79.37206286,637500,-962500,9,1,0.7160000205,292,terra,no,no,no,1,opaque,yes,minki,ellen,,,,,,,
 115,greenland_sea,2010-07-28,-9.80609276,76.64418678,837500,-1187500,7,1,0.5249999762,261,aqua,yes,no,yes,0.2,thin,no,minki,ellen,daniel,,yes,light,,,
 115,greenland_sea,2010-07-28,-9.80609276,76.64418678,837500,-1187500,7,1,0.5249999762,261,terra,yes,no,yes,0.3,thin,no,minki,ellen,daniel,,yes,light,,,
 116,greenland_sea,2006-06-16,-9.130176482,80.76347686,587500,-812500,6,1,0.6439999938,256,aqua,yes,no,yes,0.9,thin,yes,minki,ellen,daniel,,yes,moderate,,,changed from 1 to 0.9
 116,greenland_sea,2006-06-16,-9.130176482,80.76347686,587500,-812500,6,1,0.6439999938,256,terra,yes,no,yes,1,thin,no,minki,ellen,daniel,,yes,heavy,,,verified landfast ice via worldview
-117,greenland_sea,2008-09-01,-7.7218258,80.30608535,637500,-837500,9,1,0.4350000024,-1,aqua,yes,no,yes,1,thin,no,daniel,minki,,,,moderate,,,
-117,greenland_sea,2008-09-01,-7.7218258,80.30608535,637500,-837500,9,1,0.4350000024,-1,terra,yes,no,yes,0.9,thin,yes,daniel,minki,,,,light,,,
+117,greenland_sea,2008-09-01,-7.7218258,80.30608535,637500,-837500,9,1,0.4350000024,-1,aqua,yes,no,yes,1,thin,no,daniel,minki,daniel,,yes,moderate,,,
+117,greenland_sea,2008-09-01,-7.7218258,80.30608535,637500,-837500,9,1,0.4350000024,-1,terra,yes,no,yes,0.9,thin,yes,daniel,minki,daniel,,yes,light,,,dmw: floe split by artiface; floe outline represents estimate of true shape
 118,greenland_sea,2015-04-30,-7.640406761,76.5582575,887500,-1162500,4,0.76,0.7379999757,276,aqua,yes,no,yes,0.9,scattered,no,minki,ellen,daniel,,yes,heavy,,,changed thin to scattered
 118,greenland_sea,2015-04-30,-7.640406761,76.5582575,887500,-1162500,4,0.76,0.7379999757,276,terra,yes,no,yes,0.9,scattered,no,minki,ellen,daniel,,yes,heavy,,,changed thin to scattered
 119,greenland_sea,2022-07-23,-4.830419958,78.41046704,812500,-962500,7,0.96,0.6470000148,290,aqua,yes,no,yes,0.8,opaque,no,minki,ellen,ethan,daniel,yes,moderate,,,
@@ -241,14 +241,14 @@ case_number,region,start_date,center_lon,center_lat,center_x,center_y,month,sea_
 120,greenland_sea,2009-03-09,-4.698680517,78.08849234,837500,-987500,3,0.88,0.7250000238,-1,terra,no,no,no,1,opaque,no,daniel,minki,,,,,,,
 121,greenland_sea,2012-04-06,-4.57392126,77.76663966,862500,-1012500,4,0.92,0.7170000076,263,aqua,yes,no,yes,0.2,thin,no,minki,ellen,daniel,,yes,none,,,
 121,greenland_sea,2012-04-06,-4.57392126,77.76663966,862500,-1012500,4,0.92,0.7170000076,263,terra,yes,no,yes,0.2,thin,no,minki,ellen,daniel,,yes,none,,,
-122,greenland_sea,2007-03-27,-2.454031675,78.60259887,837500,-912500,3,0.92,0.6309999824,-1,aqua,yes,no,yes,1,thin,no,daniel,minki,,,,heavy,,,
-122,greenland_sea,2007-03-27,-2.454031675,78.60259887,837500,-912500,3,0.92,0.6309999824,-1,terra,yes,no,yes,0.8,scattered,no,daniel,minki,,,,moderate,,,
+122,greenland_sea,2007-03-27,-2.454031675,78.60259887,837500,-912500,3,0.92,0.6309999824,-1,aqua,yes,no,yes,1,thin,no,daniel,minki,daniel,,yes,heavy,,,
+122,greenland_sea,2007-03-27,-2.454031675,78.60259887,837500,-912500,3,0.92,0.6309999824,-1,terra,yes,no,yes,0.8,scattered,no,daniel,minki,daniel,,yes,moderate,,,
 123,greenland_sea,2015-05-13,-2.32153059,77.95694517,887500,-962500,5,0.52,0.5680000186,277,aqua,yes,no,no,0.7,thin,no,minki,ellen,,,,moderate,,,
 123,greenland_sea,2015-05-13,-2.32153059,77.95694517,887500,-962500,5,0.52,0.5680000186,277,terra,yes,no,no,0.7,thin,no,minki,ellen,,,,moderate,,,
 124,greenland_sea,2016-08-11,-1.818302964,79.74039879,762500,-812500,8,1,0.6560000181,279,aqua,no,no,no,1,opaque,no,minki,ellen,,,,,,,
-124,greenland_sea,2016-08-11,-1.818302964,79.74039879,762500,-812500,8,1,0.6560000181,279,terra,yes,no,yes,0.8,opaque,no,minki,ellen,,,,,,,
+124,greenland_sea,2016-08-11,-1.818302964,79.74039879,762500,-812500,8,1,0.6560000181,279,terra,yes,no,yes,0.8,opaque,no,minki,ellen,daniel,,yes,,,,
 125,greenland_sea,2013-05-21,-1.487867529,77.47838283,937500,-987500,5,0.48,0.449000001,273,aqua,no,no,no,1,opaque,no,minki,ellen,,,,,,,
-125,greenland_sea,2013-05-21,-1.487867529,77.47838283,937500,-987500,5,0.48,0.449000001,273,terra,yes,no,yes,0.7,opaque,no,minki,ellen,,,,light,,,
+125,greenland_sea,2013-05-21,-1.487867529,77.47838283,937500,-987500,5,0.48,0.449000001,273,terra,yes,no,yes,0.7,opaque,no,minki,ellen,daniel,,yes,light,,,
 126,greenland_sea,2009-03-14,12.04257514,77.53295999,1137500,-737500,3,0.417,0.3970000148,258,aqua,no,yes,no,0.7,scattered,yes,minki,ellen,,,,,,,
 126,greenland_sea,2009-03-14,12.04257514,77.53295999,1137500,-737500,3,0.417,0.3970000148,258,terra,no,yes,no,0.7,scattered,no,minki,ellen,,,,,,,
 127,hudson_bay,2019-03-27,-94.3276482,60.3754332,-2487500,-2137500,3,1,0.8709999919,-1,aqua,yes,yes,no,1,thin,no,daniel,minki,,,,,,,mk: artifacts here
@@ -257,40 +257,40 @@ case_number,region,start_date,center_lon,center_lat,center_x,center_y,month,sea_
 128,hudson_bay,2019-04-15,-91.98470311,57.85300979,-2612500,-2437500,4,1,0.9319999814,-1,terra,yes,yes,yes,0,none,yes,daniel,minki,daniel,,yes,none,,,mk: images are blurred
 129,hudson_bay,2010-03-24,-91.96526057,57.55116863,-2637500,-2462500,3,1,0.94599998,-1,aqua,yes,yes,yes,1,thin,no,daniel,minki,daniel,,yes,heavy,,,
 129,hudson_bay,2010-03-24,-91.96526057,57.55116863,-2637500,-2462500,3,1,0.94599998,-1,terra,yes,yes,yes,1,thin,yes,daniel,minki,daniel,,yes,heavy,,,
-130,hudson_bay,2007-04-28,-91.72698775,58.31153968,-2562500,-2412500,4,1,0.8199999928,311,aqua,yes,no,yes,1,thin,no,emma,daniel,,,,heavy,,,changed clouds to thin
-130,hudson_bay,2007-04-28,-91.72698775,58.31153968,-2562500,-2412500,4,1,0.8199999928,311,terra,yes,no,yes,1,thin,yes,emma,daniel,,,,heavy,,,changed clouds to thin
+130,hudson_bay,2007-04-28,-91.72698775,58.31153968,-2562500,-2412500,4,1,0.8199999928,311,aqua,yes,no,yes,1,thin,no,emma,daniel,daniel,,yes,heavy,,,changed clouds to thin
+130,hudson_bay,2007-04-28,-91.72698775,58.31153968,-2562500,-2412500,4,1,0.8199999928,311,terra,yes,no,yes,1,thin,yes,emma,daniel,daniel,,yes,heavy,,,changed clouds to thin
 131,hudson_bay,2017-03-29,-89.65484888,63.38042177,-2062500,-2087500,3,1,0.9369999766,-1,aqua,yes,yes,no,1,thin,no,daniel,minki,,,,,,,
 131,hudson_bay,2017-03-29,-89.65484888,63.38042177,-2062500,-2087500,3,1,0.9369999766,-1,terra,yes,yes,no,1,thin,no,daniel,minki,,,,,,,
-132,hudson_bay,2021-06-04,-89.3452196,61.98932453,-2162500,-2212500,6,1,0.6700000167,-1,aqua,yes,no,yes,0.8,thin,no,daniel,minki,,,,moderate,,,
-132,hudson_bay,2021-06-04,-89.3452196,61.98932453,-2162500,-2212500,6,1,0.6700000167,-1,terra,yes,no,yes,0.8,thin,no,daniel,minki,,,,moderate,,,
-133,hudson_bay,2013-06-10,-88.65999222,62.60057739,-2087500,-2187500,6,1,0.8610000014,-1,aqua,yes,no,yes,1,thin,no,daniel,minki,,,,light,,,
-133,hudson_bay,2013-06-10,-88.65999222,62.60057739,-2087500,-2187500,6,1,0.8610000014,-1,terra,yes,no,yes,1,thin,no,daniel,minki,,,,moderate,,,
+132,hudson_bay,2021-06-04,-89.3452196,61.98932453,-2162500,-2212500,6,1,0.6700000167,-1,aqua,yes,no,yes,0.8,thin,no,daniel,minki,daniel,,yes,moderate,,,
+132,hudson_bay,2021-06-04,-89.3452196,61.98932453,-2162500,-2212500,6,1,0.6700000167,-1,terra,yes,no,yes,0.8,thin,no,daniel,minki,daniel,,yes,moderate,,,
+133,hudson_bay,2013-06-10,-88.65999222,62.60057739,-2087500,-2187500,6,1,0.8610000014,-1,aqua,yes,no,yes,1,thin,no,daniel,minki,daniel,,yes,light,,,
+133,hudson_bay,2013-06-10,-88.65999222,62.60057739,-2087500,-2187500,6,1,0.8610000014,-1,terra,yes,no,yes,1,thin,no,daniel,minki,daniel,,yes,moderate,,,
 134,hudson_bay,2015-08-10,-85.749345,66.119475,-1712500,-1987500,8,1,0.732,-1,aqua,yes,no,no,0,none,no,daniel,minki,,,,,,,possible tiny floes; mk: mostly cloudy-different date(20100812)
 134,hudson_bay,2015-08-10,-85.749345,66.119475,-1712500,-1987500,8,1,0.732,-1,terra,yes,no,no,0,none,yes,daniel,minki,,,,,,,possible tiny floes; mk: mostly cloudy-different date(20100812)
-135,hudson_bay,2017-07-06,-91.780642,59.221811,-2487500,-2337500,7,0.64,0.43,-1,aqua,yes,no,yes,0.2,thin,no,daniel,minki,,,,none,,,
-135,hudson_bay,2017-07-06,-91.780642,59.221811,-2487500,-2337500,7,0.64,0.43,-1,terra,yes,no,yes,0.2,thin,no,daniel,minki,,,,none,,,
-136,hudson_bay,2012-08-14,-84.364059,65.442785,-1712500,-2087500,8,1,0.806,-1,aqua,yes,no,yes,0.1,thin,no,daniel,minki,,,,,,,
-136,hudson_bay,2012-08-14,-84.364059,65.442785,-1712500,-2087500,8,1,0.806,-1,terra,yes,no,yes,0.1,thin,no,daniel,minki,,,,,,,
+135,hudson_bay,2017-07-06,-91.780642,59.221811,-2487500,-2337500,7,0.64,0.43,-1,aqua,yes,no,yes,0.2,thin,no,daniel,minki,daniel,,yes,none,,,
+135,hudson_bay,2017-07-06,-91.780642,59.221811,-2487500,-2337500,7,0.64,0.43,-1,terra,yes,no,yes,0.2,thin,no,daniel,minki,daniel,,yes,none,,,
+136,hudson_bay,2012-08-14,-84.364059,65.442785,-1712500,-2087500,8,1,0.806,-1,aqua,yes,no,yes,0.1,thin,no,daniel,minki,daniel,,yes,,,,
+136,hudson_bay,2012-08-14,-84.364059,65.442785,-1712500,-2087500,8,1,0.806,-1,terra,yes,no,yes,0.1,thin,no,daniel,minki,daniel,,yes,,,,
 137,hudson_bay,2016-07-29,-83.92196302,55.58397708,-2412500,-2987500,7,0.682,0.5889999866,-1,aqua,yes,no,no,1,opaque,no,daniel,minki,,,,,,,
 137,hudson_bay,2016-07-29,-83.92196302,55.58397708,-2412500,-2987500,7,0.682,0.5889999866,-1,terra,yes,no,no,0.8,opaque,no,daniel,minki,,,,,,,
 138,hudson_bay,2020-05-09,-83.92041104,62.76903867,-1887500,-2337500,5,1,0.6740000248,339,aqua,yes,yes,yes,0.1,scattered,no,emma,daniel,daniel,,yes,none,,,
 138,hudson_bay,2020-05-09,-83.92041104,62.76903867,-1887500,-2337500,5,1,0.6740000248,339,terra,yes,yes,yes,0.1,scattered,no,emma,daniel,daniel,,yes,none,,,
 139,hudson_bay,2018-05-14,-83.08877288,63.34872592,-1812500,-2312500,5,1,0.9169999957,-1,aqua,yes,yes,no,1,thin,no,daniel,minki,,,,,,,
 139,hudson_bay,2018-05-14,-83.08877288,63.34872592,-1812500,-2312500,5,1,0.9169999957,-1,terra,yes,yes,no,1,thin,no,daniel,minki,,,,,,,
-140,hudson_bay,2010-05-24,-82.3275884,58.97095293,-2087500,-2737500,5,0.96,0.7620000243,455,aqua,yes,no,yes,1,thin,no,daniel,minki,,,,moderate,,,
-140,hudson_bay,2010-05-24,-82.3275884,58.97095293,-2087500,-2737500,5,0.96,0.7620000243,455,terra,yes,no,yes,1,thin,no,daniel,minki,,,,heavy,,,
+140,hudson_bay,2010-05-24,-82.3275884,58.97095293,-2087500,-2737500,5,0.96,0.7620000243,455,aqua,yes,no,yes,1,thin,no,daniel,minki,daniel,,yes,moderate,,,
+140,hudson_bay,2010-05-24,-82.3275884,58.97095293,-2087500,-2737500,5,0.96,0.7620000243,455,terra,yes,no,yes,1,thin,no,daniel,minki,daniel,,yes,heavy,,,
 141,hudson_bay,2021-05-18,-81.35457747,62.30459184,-1812500,-2462500,5,1,0.8899999857,340,aqua,yes,yes,yes,0.9,opaque,no,emma,daniel,daniel,,yes,moderate,,,
 141,hudson_bay,2021-05-18,-81.35457747,62.30459184,-1812500,-2462500,5,1,0.8899999857,340,terra,yes,yes,yes,0.9,opaque,no,emma,daniel,daniel,,yes,moderate,,,
-142,hudson_bay,2017-07-16,-81.30869246,64.49461436,-1662500,-2262500,7,0.562,0.4079999924,334,terra,yes,no,yes,0.7,scattered,no,emma,daniel,,,,moderate,,,
-142,hudson_bay,2017-07-16,-81.30869246,64.49461436,-1662500,-2262500,7,0.562,0.4079999924,334,aqua,yes,no,yes,0.9,scattered,no,daniel,minki,,,,light,,,
+142,hudson_bay,2017-07-16,-81.30869246,64.49461436,-1662500,-2262500,7,0.562,0.4079999924,334,terra,yes,no,yes,0.7,scattered,no,emma,daniel,daniel,,yes,moderate,,,
+142,hudson_bay,2017-07-16,-81.30869246,64.49461436,-1662500,-2262500,7,0.562,0.4079999924,334,aqua,yes,no,yes,0.9,scattered,no,daniel,minki,daniel,,yes,light,,,
 143,hudson_bay,2015-07-20,-79.91346832,56.4758475,-2137500,-3062500,7,0.542,0.6710000038,330,aqua,no,no,no,0.9,opaque,no,emma,daniel,,,,,,,
 143,hudson_bay,2015-07-20,-79.91346832,56.4758475,-2137500,-3062500,7,0.542,0.6710000038,330,terra,no,no,no,1,opaque,no,emma,daniel,,,,,,,
 144,hudson_bay,2009-06-05,-78.75095569,60.52588128,-1812500,-2712500,6,1,0.7950000167,319,aqua,yes,yes,yes,0.8,thin,no,emma,daniel,emma,daniel,yes,heavy,,,changed clouds to thin
 144,hudson_bay,2009-06-05,-78.75095569,60.52588128,-1812500,-2712500,6,1,0.7950000167,319,terra,yes,yes,yes,0.9,opaque,yes,emma,daniel,emma,daniel,yes,heavy,,,changed clouds to opaque
 145,hudson_bay,2009-06-15,-78.40782459,58.31610451,-1937500,-2937500,6,1,0.7680000067,320,aqua,yes,no,no,0.9,scattered,no,emma,daniel,,,,,,,"changed visible_floes to ""no"""
 145,hudson_bay,2009-06-15,-78.40782459,58.31610451,-1937500,-2937500,6,1,0.7680000067,320,terra,yes,no,no,0.9,scattered,yes,emma,daniel,,,,,,,"changed visible_floes to ""no"""
-146,hudson_bay,2021-04-13,-78.39258432,59.86631107,-1837500,-2787500,4,1,0.8859999776,-1,aqua,yes,yes,yes,0.8,thin,no,daniel,minki,,,,moderate,,,
-146,hudson_bay,2021-04-13,-78.39258432,59.86631107,-1837500,-2787500,4,1,0.8859999776,-1,terra,yes,yes,yes,1,thin,no,daniel,minki,,,,moderate,,,
+146,hudson_bay,2021-04-13,-78.39258432,59.86631107,-1837500,-2787500,4,1,0.8859999776,-1,aqua,yes,yes,yes,0.8,thin,no,daniel,minki,daniel,,yes,moderate,,,
+146,hudson_bay,2021-04-13,-78.39258432,59.86631107,-1837500,-2787500,4,1,0.8859999776,-1,terra,yes,yes,yes,1,thin,no,daniel,minki,daniel,,yes,moderate,,,
 147,hudson_bay,2006-04-12,-78.11134196,56.12852697,-2062500,-3162500,4,1,0.9549999833,-1,aqua,no,no,no,1,opaque,no,daniel,minki,,,,,,,
 147,hudson_bay,2006-04-12,-78.11134196,56.12852697,-2062500,-3162500,4,1,0.9549999833,-1,terra,no,no,no,1,opaque,yes,daniel,minki,,,,,,,
 148,laptev_sea,2011-03-24,104.2259639,78.08849234,662500,1112500,3,1,0.8149999976,371,aqua,yes,yes,yes,0.6,thin,no,ellen,ethan,daniel,,yes,heavy,,,
