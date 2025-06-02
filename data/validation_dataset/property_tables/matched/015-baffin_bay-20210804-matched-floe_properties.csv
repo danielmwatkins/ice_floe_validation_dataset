@@ -1,0 +1,2 @@
+,aqua_label,terra_label,aqua_area,terra_area,joint_area,iou,r_aqua,c_aqua,r_terra,c_terra,drows,dcols,case_number,method
+0,2,3,142,96,58,0.32222222222222224,364.14084507042253,35.309859154929576,368.8020833333333,38.1875,-4.661238262910786,-2.877640845070424,015,high_iou
