@@ -19,7 +19,7 @@ import pandas as pd
 from skimage.color import rgba2rgb
 
 modis_loc = "../data/modis/truecolor/"
-labeled_loc = "../data/validation_images/labeled_floes/"
+labeled_loc = "../data/validation_dataset/labeled_floes/"
 labeled_images = [f for f in os.listdir(labeled_loc) if "tiff" in f]
 
 # check that both cases are there 
@@ -59,7 +59,7 @@ case_info.loc[case_info[['n_aqua', 'n_terra']].min(axis=1) == 0, 'pair_floes'] =
 print('Number of candidate cases: ', case_info['pair_floes'].sum(), '/', len(cases))
 
 ######## Function to load images for creating the tables and plotting ############
-def load_case(case, modis_loc="../data/modis/truecolor/", labeled_loc="../data/validation_images/labeled_floes/"):
+def load_case(case, modis_loc="../data/modis/truecolor/", labeled_loc="../data/validation_dataset/labeled_floes/"):
     """
     Load the labeled and truecolor images for the case, grab the region props tables, and make a first guess of matches.
     """
@@ -166,8 +166,8 @@ for case_idx in range(len(cases)):
 
 
     
-    regions_aqua.to_csv('../data/floe_property_tables/aqua/' + cases[case_idx].replace('labeled_floes.tiff', 'floe_properties.csv'))
-    regions_terra.to_csv('../data/floe_property_tables/terra/' + cases[case_idx].replace(
+    regions_aqua.to_csv('../data/validation_dataset/property_tables/aqua/' + cases[case_idx].replace('labeled_floes.tiff', 'floe_properties.csv'))
+    regions_terra.to_csv('../data/validation_dataset/property_tables/terra/' + cases[case_idx].replace(
         'labeled_floes.tiff', 'floe_properties.csv').replace('aqua', 'terra'))
                          
 ######### Lookup dictionary for manual selection of overlapping floes #########
@@ -286,7 +286,7 @@ for case_number in updated_matches:
     for case in cases:
         if case_number == case.split('-')[0]:
             fname = case.replace('labeled_floes.tiff', 'floe_properties.csv').replace('aqua', 'matched')
-            updated_matches[case_number].to_csv('../data/floe_property_tables/matched/' + fname)
+            updated_matches[case_number].to_csv('../data/validation_dataset/property_tables/matched/' + fname)
         # else:
         #     fname = case_number + '-matched-floe_properties.csv'
             
@@ -367,7 +367,7 @@ def plot_match_images(regions_aqua, regions_terra, updated_matches, lb_aqua, lb_
                rg=rg.replace('_', ' ').title(),
                dt=pd.to_datetime(dt).strftime('%Y-%m-%d')))
     
-    fig.save('../data/validation_images/matching_test_images/' + case_number + '_test_image.png', dpi=300)
+    fig.save('../data/validation_dataset/matching_test_images/' + case_number + '_test_image.png', dpi=300)
     pplt.close(fig)
 
 for case_idx in range(len(cases)):
