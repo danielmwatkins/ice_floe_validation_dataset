@@ -95,6 +95,10 @@ fig.legend(ncols=1, alpha=1, loc='r', order='F')
 # Bar chart
 ax = axs[0]
 
+df = pd.read_csv('../data/validation_dataset/validation_dataset.csv', parse_dates=['start_date'])
+df['month'] = df['start_date'].dt.month
+df.index = [str(x).zfill(3) for x in df.case_number]
+
 df.loc[:, 'visible_sea_ice'] = df.loc[:, 'visible_sea_ice'].where(df.loc[:, 'visible_sea_ice']=='yes')
 df.loc[:, 'visible_landfast_ice'] = df.loc[:, 'visible_landfast_ice'].where(df.loc[:, 'visible_landfast_ice']=='yes')
 df.loc[:, 'visible_floes'] = df.loc[:, 'visible_floes'].where(df.loc[:, 'visible_floes']=='yes')

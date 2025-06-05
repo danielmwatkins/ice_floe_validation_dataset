@@ -7,7 +7,7 @@ import rasterio as rio
 import skimage
 
 data_loc = '../data/modis/landmask/'
-save_loc = '../data/validation_images/binary_landmask/'
+save_loc = '../data/validation_dataset/binary_landmask/'
 grayscale_threshold = 0.4
 files = os.listdir(data_loc)
 files = [f for f in files if 'tiff' in f]
