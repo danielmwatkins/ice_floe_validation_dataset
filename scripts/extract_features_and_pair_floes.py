@@ -177,7 +177,6 @@ for case_idx in range(len(cases)):
 # some: keep ones in list
 # none: no good matches
 
- 
 filter_dict = {
     '001': ['all', []], 
     '004': ['all', []],
