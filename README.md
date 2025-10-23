@@ -2,7 +2,7 @@
 The Ice Floe Validation Dataset is a collection of randomly sampled 100 km by 100 km MODIS scenes from the _Aqua_ and _Terra_ satellites. This repository contains the dataset itself along with the notebooks and scripts used to produce the dataset.
 
 # Contents
-## /data
+## data
 The data directory has subdirectories
 1. `/metadata` containing specification/config files
 2. `/modis` containing truecolor, falsecolor, landmask, and cloudfraction images
@@ -19,13 +19,13 @@ The files all follow a strict, informative naming convention.
 1. MODIS and MASIE images: `NNN-region_name-100km-YYYYMMDD.satellite_name.image_type.250m.tiff` NNN is the zero-padded, three digit case number. Each case specifies a date and location, and contains two satellite images (Aqua and Terra). MODIS image types are `cloudfraction` (RGB), `truecolor` (Bands 1-4-3), `falsecolor` (Bands 7-2-1), and `landmask`. MASIE images have `masie` instead of satellite, since there's only one MASIE image each day, and have image types `seaice` and `landmask`.
 2. Validation images: `NNN-region_name-YYYYMMDD-satellite-image_type.file_type`. Image types with file type `png` are `binary_floes`, `binary_landfast`, `binary_landmask`. Labeled floe masks are `tiff` with image type `labeled_floes` and have integer labels corresponding to the labels in the property tables.
 
-Finally, the `/property_tables` contains the main metadata table with all case information and manual image assessments `ice_floe_validation_dataset.csv` as well as automatically generated property tables for each image with ice floes in it, and a table of hybrid automatic/manual floe matching for paired analyses.
+Finally, the `/property_tables` contains the main metadata table with all case information and manual image assessments `ice_floe_validation_dataset.csv` as well as automatically generated property tables for each image with ice floes in it, and a table of hybrid automatic/manual floe matching for paired analyses. Passtimes for each image identified using the Satellite Overpass Identification Tool and NASA Earthdata Worldview are included.
 
-## /notebooks
+## notebooks
 1. `bookkeeping.ipynb` Scripts and diagnostics to check the completeness of the datasets.
 2. `sample_selection.ipynb` Code for iterative random sampling
 
-## /scripts
+## scripts
 1. setup_locations.py
 2. calculate_sea_ice_fraction.py
 3. binarize_landmasks.py
@@ -33,8 +33,17 @@ Finally, the `/property_tables` contains the main metadata table with all case i
 5. plot_locations.py
 6. plot_sif_climatology.py
 
-## /figures
+## figures
 The figures directory has diagnostic and explanatory figures, including the sea ice fraction climatology, the map of analyzed cases, and a summary of the metadata.
 
-# TBD options
-1. Filetypes: the labeled images could be bundled together into a single h5 file per case.
+# Citation
+The dataset will be described in an upcoming paper in _IEEE Transactions on Geoscience and Remote Sensing_ "Automated segmentation and tracking of sea ice floes from optical remote sensing imagery". If you use the dataset in your work, please cite the dataset as
+
+Watkins, D.M. (2025) "Ice Floe Validation Dataset", github.com/danielmwatkins/ice_floe_validation_dataset
+
+and check back for updates.
+
+
+# Acknowledgments
+Creation of the dataset was supported by grants from NASA and the US Office of Naval Research. Contributors to the data validation and labeling include Ellen Buckley, Minki Kim, Emma Slaght, and Ethan Register.
+
